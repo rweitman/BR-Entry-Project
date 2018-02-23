@@ -1,0 +1,218 @@
+/*https://stackoverflow.com/questions/3296644/hiding-the-scrollbar-on-an-html-page*/
+
+
+/*https://www.tutorialrepublic.com/faq/how-to-create-fixed-header-or-footer-using-css.php*/
+
+body {
+    zoom: 100%;
+    padding-top: 62px;
+    padding-bottom: 50px;
+    overflow: auto;
+    background-color: rgb(234, 236, 237);
+}
+
+#heading-cont {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+#heading {
+    max-width: 320px;
+    height: 62px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: rgb(67, 232, 149);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 62px;
+    position: relative;
+}
+
+#luncheon {
+    position: absolute;
+    left: 40px;
+}
+
+
+#lunching {
+    position: absolute;
+    right: 10px;
+}
+
+#arrow {
+    position: absolute;
+    left: 10px;
+}
+
+#arrows:hover {
+    -webkit-filter: brightness(50%) saturate(200%) hue-rotate(90deg);
+}
+
+section {
+    width: 320px;
+    margin: auto;
+    text-align: center;
+}
+
+#mapps {
+    width: 100%;
+    height: 180px;
+    border: 0;
+}
+
+#labels {
+    width: 100%;
+    height: 60px;
+    border: 0;
+    background-color: rgb(52, 179, 121);
+    position: relative;
+}
+
+#info {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    position: relative;
+}
+
+#info_address {
+    position: absolute;
+    color: rgb(42, 42, 42);
+    font-size: 16px;
+    left: 12px;
+    top: 16px;
+}
+
+#info_zip {
+    position: absolute;
+    color: rgb(42, 42, 42);
+    font-size: 16px;
+    left: 12px;
+    top: 35px;
+}
+
+
+#info_phone {
+    position: absolute;
+    color: rgb(42, 42, 42);
+    font-size: 16px;
+    left: 12px;
+    top: 70px;
+}
+
+#info_twitter {
+    position: absolute;
+    color: rgb(42, 42, 42);
+    font-size: 16px;
+    left: 12px;
+    top: 110px;
+}
+
+
+#map_category {
+    position: absolute;
+    bottom: 6px;
+    left: 12px;
+    color: white;
+    font-size: 12px;
+}
+
+#map_name {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px;
+    left: 12px;
+}
+
+.rest-bground2 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.rest-bground {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+footer {
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+
+.footer {
+    background: rgb(42, 42, 42);
+    height: 50px;
+    margin: 0px auto;
+    width: 320px;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.empty-foot {
+    background: white;
+    height: 50px;
+    margin: 0px auto;
+    width: 320px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+#snack {
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    top: 10px;
+    left: 40px;
+}
+
+
+#inter {
+    position: absolute;
+    font-size: 10px;
+    color: rgb(151, 151, 151);
+    top: 10px;
+    right: 100px;
+}
+
+
+
+/*https://stackoverflow.com/questions/38801665/how-to-recolor-a-white-on-transparent-image-to-an-arbitrary-color-using-css*/
+
+#intering {
+    -webkit-filter: brightness(50%) saturate(200%) hue-rotate(90deg);
+}
+
+
+
+
+/*https://www.w3schools.com/howto/howto_css_image_text.asp*/
+
+.rest-category {
+    position: absolute;
+    bottom: 6px;
+    left: 12px;
+    color: white;
+    font-size: 12px;
+}
+
+.rest-name {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px;
+    left: 12px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Tells the Browser How the Webpage Should Be Rendered -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sets the Title of the Webpage  -->
+    <title>Bottle Rocket Entry Level - Restaurant App</title>
+    <!-- Reset.css clears formatting -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- This stylesheet link makes bootstrap code accessible in the app -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Style.css adds formatting -->
+    <link rel="stylesheet" type="text/css" href="assets/css/map.css">
+</head>
+
+<body>
+    <div id="heading-cont">
+        <div id="heading">
+            <div id="arrow"><a href="index.html"><img src="web-coding-exam-assets/Cuts/ic_webBack@2x.png" width="50%" id="arrows"></a></div>
+            <div id="luncheon">Lunch Tyme!</div>
+            <div id="lunching"><img src="web-coding-exam-assets/Cuts/icon_map@2x.png" width="50%"></div>
+        </div>
+    </div>
+    <section>
+        <iframe id="mapps"></iframe>
+        <div id="labels">
+            <div id="map_category"></div>
+            <div id="map_name"></div>
+        </div>
+        <div id="info">
+            <div id="info_address"></div>
+            <div id="info_zip"></div>
+            <div id="info_phone"></div>
+            <div id="info_twitter"></div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div id="snack"><img src="web-coding-exam-assets/Cuts/tab_lunch@2x.png" id="snacking" width="50%">
+                <br> lunch
+            </div>
+            <div id="inter"><a href="internet.html"><img src="web-coding-exam-assets/Cuts/tab_internets@2x.png" id="intering" width="50%"></a>
+                <br> internets
+            </div>
+        </div>
+        <div class="empty-foot"></div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+    </script>
+    <!-- Google Maps API -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3VS7RgLCswTD02lz2wY26Ish8hNF1-ZQ&callback&region=US">
+    </script>
+    <!-- Current App Logic -->
+    <script type="text/javascript" src="assets/js/mapp.js"></script>
+</body>
+
+</html>

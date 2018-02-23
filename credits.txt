@@ -1,0 +1,115 @@
+HERE ARE SOME OF THE SOURCES USED IN MAKING THIS PROGRAM
+Some sources are listed in the code
+
+
+CBC Responsive Project - SCREEN WIDTH:
+	@media only screen and (max-width: 640px)
+
+
+
+CBC Bootstrap Portfolio - THE HEADER:
+			<!DOCTYPE html>
+			<html lang="en-us">
+			<head>
+				<meta charset="UTF-8">
+				<!-- Tells the Browser How the Webpage Should Be Rendered -->
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<!-- Sets the Title of the Webpage  -->
+				<title>Bootstrap Portfolio - Index</title>
+				<!-- Reset.css clears formatting -->
+				<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+				<!-- This stylesheet link makes bootstrap code accessible in the app -->
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+				<!-- Style.css adds formatting -->
+				<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+			</head>
+
+CBC Responsive Project - THE RESET FILE:
+	See assets/reset.css
+
+CBC eventAbility GROUP Project - THE FOOTER & INCORPORATING JS:
+			<script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js">
+			</script>
+
+			<!-- Moment.js -->
+			<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+
+			<!-- Google Maps API -->
+			<script async defer
+			    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZO4fsXLv5ODYYBldfEUCCF63RmouiFWU&callback&region=US">
+			</script>
+
+			<!-- Current App Logic -->
+			<script type="text/javascript" src="assets/js/app.js"></script>
+
+			<!-- Firebase Javascript -->
+			<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+			  
+
+			</body>
+			</html>
+
+GOOGLE MAP APIs:
+	Used Google to find an API Key for maps
+
+
+FIREBASE ACCOUNT MADE: 
+
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyB0D6wsmzqqzh85T5AZuOvGRcP7h-M-HNs",
+	    authDomain: "br-entry.firebaseapp.com",
+	    databaseURL: "https://br-entry.firebaseio.com",
+	    projectId: "br-entry",
+	    storageBucket: "",
+	    messagingSenderId: "572975134302"
+	  };
+
+
+	  firebase.initializeApp(config);
+
+	  var base =  firebase.database();
+
+CBC Responsive Design - :
+
+
+
+
+
+https://stackoverflow.com/questions/31669656/css-shapes-with-text-inside-it:
+
+	-->margin:auto
+
+https://www.w3schools.com/csSref/pr_font_font.asp
+	-->  font: 15px arial, sans-serif;
+
+https://stackoverflow.com/questions/8865458/how-do-i-vertically-center-text-with-css
+
+	--> aligning contents to middle of block
+
+
+https://stackoverflow.com/questions/5158735/best-way-to-represent-1-3rd-of-100-in-css
+
+	--> calculating image sizes
+
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+
+https://stackoverflow.com/questions/12577797/how-to-add-class-to-an-element-create-by-appendchild
+
+https://stackoverflow.com/questions/41370741/how-do-i-edit-a-css-variable-using-js
+
+http://www.corelangs.com/css/box/ontop.html
+
+https://stackoverflow.com/questions/15629511/how-can-i-make-my-footer-center-to-the-bottom-of-the-page
+
+https://www.tutorialrepublic.com/faq/how-to-create-fixed-header-or-footer-using-css.php 
+
+https://stackoverflow.com/questions/38801665/how-to-recolor-a-white-on-transparent-image-to-an-arbitrary-color-using-css
+
+https://stackoverflow.com/questions/9612758/add-a-css-border-on-hover-without-moving-the-element
+
+https://stackoverflow.com/questions/25404466/how-to-make-createelementimage-into-a-link-as-well
+
+https://bytes.com/topic/javascript/answers/590609-how-extract-url-append-link-javascript

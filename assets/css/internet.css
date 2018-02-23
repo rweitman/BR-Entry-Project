@@ -1,0 +1,156 @@
+body {
+    zoom: 100%;
+    padding-top: 62px;
+    padding-bottom: 50px;
+    overflow: auto;
+    background-color: black;
+}
+
+#heading-cont {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+#heading {
+    max-width: 320px;
+    height: 62px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: rgb(67, 232, 149);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 62px;
+    position: relative;
+}
+
+
+#back {
+    position: absolute;
+    left: 10px;
+}
+
+
+#refresh {
+    position: absolute;
+    left: 30px;
+}
+
+#forward {
+    position: absolute;
+    left: 90px;
+}
+
+#sections {
+    width: 320px;
+    height: 700px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+
+#nav {
+    width: 100%;
+    height: 180px;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+#details {
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    height: 600px;
+    background-color: white;
+    font-color: black;
+}
+
+
+/*https://www.w3schools.com/html/html_form_input_types.asp*/
+
+input[type=text] {
+    background-color: rgb(229, 229, 229);
+    color: rgb(170, 170, 170);
+    border: 0px;
+    width: 100%;
+}
+
+footer {
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.hr {
+    width: 100% font-size: 1px;
+    color: rgba(0, 0, 0, 0);
+    line-height: 3px;
+
+    background-color: rgb(237, 34, 19);
+    margin-top: -6px;
+    margin-bottom: 10px;
+}
+
+.hr2 {
+    width: 100% font-size: 1px;
+    color: rgba(0, 0, 0, 0);
+    line-height: 1px;
+
+    background-color: rgb(229, 229, 229);
+    margin-top: -6px;
+    margin-bottom: 10px;
+}
+
+
+.footer {
+    background: rgb(42, 42, 42);
+    height: 50px;
+    margin: 0px auto;
+    width: 320px;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.empty-foot {
+    background: white;
+    height: 50px;
+    margin: 0px auto;
+    width: 320px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+#snack {
+    position: absolute;
+    font-size: 10px;
+    color: rgb(151, 151, 151);
+    top: 10px;
+    left: 40px;
+}
+
+
+#inter {
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    top: 10px;
+    right: 100px;
+}
+
+
+/*https://stackoverflow.com/questions/38801665/how-to-recolor-a-white-on-transparent-image-to-an-arbitrary-color-using-css*/
+
+#snacking {
+    -webkit-filter: brightness(50%) saturate(200%) hue-rotate(90deg);
+}
